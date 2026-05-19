@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-wavul" at "2026-05-19T22:57:59.3758749Z"
 Built from '6000.3/staging' branch; Version is '6000.3.8f1 (1c7db571dde0) revision 1867189'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-wavul" at "2026-05-19T21:28:30.2032481Z"
 OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'pt' Physical Memory: 16108 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-19T21:28:30Z
+Date: 2026-05-19T22:57:59Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ D:/MasterCrabHunter(cenario)
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59556
+50478
 -licensingIpc
 LicenseClient-wavul
 -job-worker-count
@@ -67,14 +67,12 @@ D:/MasterCrabHunter(cenario)
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [60388]  Target information:
+Player connection [75196]  Target information:
 
-Player connection [60388]  * "[IP] 26.197.128.158 [Port] 0 [Flags] 2 [Guid] 379429549 [EditorId] 379429549 [Version] 1048832 [Id] WindowsEditor(7,Digi_twig) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [75196]  * "[IP] 26.197.128.158 [Port] 0 [Flags] 2 [Guid] 413989811 [EditorId] 413989811 [Version] 1048832 [Id] WindowsEditor(7,Digi_twig) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [60388]  * "[IP] 192.168.0.199 [Port] 0 [Flags] 2 [Guid] 379429549 [EditorId] 379429549 [Version] 1048832 [Id] WindowsEditor(7,Digi_twig) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [60388] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [60388] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [75196] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [75196] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -86,7 +84,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 10.28 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.37 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.8f1 (1c7db571dde0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -102,57 +100,57 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004328 seconds.
-- Loaded All Assemblies, in  0.804 seconds
+Registered in 0.019752 seconds.
+- Loaded All Assemblies, in  2.341 seconds
 Native extension for WindowsStandalone target not found
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              a001305df4134482838dda07bdf2ff7e
-  Correlation Id:          f4a48c6e487d24ba755a036b1df2a444
-  External correlation Id: 4776379792790256963
-  Machine Id:              KtsiXdAM/uV36trPzjml9a5Sk5I=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-wavul" (connect: 0.00s, validation: 0.00s, handshake: 3.42s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-wavul-notifications" at "2026-05-19T21:28:33.6326214Z"
-[Licensing::Module] Licensing Background thread has ended after 3.43s
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.263 seconds
-Domain Reload Profiling: 2061ms
-	BeginReloadAssembly (287ms)
+- Finished resetting the current domain, in  1.952 seconds
+Domain Reload Profiling: 4285ms
+	BeginReloadAssembly (571ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (78ms)
-	LoadAllAssembliesAndSetupDomain (347ms)
-		LoadAssemblies (279ms)
+		CreateAndSetChildDomain (5ms)
+	RebuildCommonClasses (244ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (366ms)
+	LoadAllAssembliesAndSetupDomain (1112ms)
+		LoadAssemblies (544ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (340ms)
-			TypeCache.Refresh (336ms)
-				TypeCache.ScanAssembly (313ms)
+		AnalyzeDomain (1093ms)
+			TypeCache.Refresh (1085ms)
+				TypeCache.ScanAssembly (998ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1264ms)
+	FinalizeReload (1954ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1120ms)
+		SetupLoadedEditorAssemblies (1716ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (112ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (250ms)
-			ProcessInitializeOnLoadAttributes (510ms)
-			ProcessInitializeOnLoadMethodAttributes (239ms)
+			InitializePlatformSupportModulesInManaged (230ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (447ms)
+			ProcessInitializeOnLoadAttributes (705ms)
+			ProcessInitializeOnLoadMethodAttributes (315ms)
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (1ms)
+			EditorAssembliesLoaded (4ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              b8a2ff1d7fca4f4ea1220cc5de38285b
+  Correlation Id:          f4a48c6e487d24ba755a036b1df2a444
+  External correlation Id: 2457516423943404249
+  Machine Id:              KtsiXdAM/uV36trPzjml9a5Sk5I=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-wavul" (connect: 0.00s, validation: 0.02s, handshake: 7.17s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-wavul-notifications" at "2026-05-19T22:58:06.5703136Z"
+[Licensing::Module] Licensing Background thread has ended after 7.19s
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
@@ -163,8 +161,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  2.059 seconds
-Refreshing native plugins compatible for Editor in 6.07 ms, found 4 plugins.
+- Loaded All Assemblies, in  2.316 seconds
+Refreshing native plugins compatible for Editor in 7.56 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -172,76 +170,340 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.582 seconds
-Domain Reload Profiling: 3635ms
-	BeginReloadAssembly (455ms)
+- Finished resetting the current domain, in  2.085 seconds
+Domain Reload Profiling: 4388ms
+	BeginReloadAssembly (489ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (22ms)
+		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (100ms)
-	RebuildCommonClasses (74ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (72ms)
-	LoadAllAssembliesAndSetupDomain (1427ms)
-		LoadAssemblies (1059ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (112ms)
+	RebuildNativeTypeToScriptingClass (37ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (1570ms)
+		LoadAssemblies (1064ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (594ms)
-			TypeCache.Refresh (416ms)
-				TypeCache.ScanAssembly (393ms)
-			BuildScriptInfoCaches (150ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (1583ms)
+		AnalyzeDomain (803ms)
+			TypeCache.Refresh (603ms)
+				TypeCache.ScanAssembly (571ms)
+			BuildScriptInfoCaches (165ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2086ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1243ms)
+		SetupLoadedEditorAssemblies (1588ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (300ms)
-			ProcessInitializeOnLoadAttributes (710ms)
-			ProcessInitializeOnLoadMethodAttributes (210ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
+			BeforeProcessingInitializeOnLoad (392ms)
+			ProcessInitializeOnLoadAttributes (872ms)
+			ProcessInitializeOnLoadMethodAttributes (295ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (17ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.43 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 6909 unused Assets / (4.8 MB). Loaded Objects now: 7727.
-Memory consumption went from 152.4 MB to 147.6 MB.
-Total: 12.760300 ms (FindLiveObjects: 0.736200 ms CreateObjectMapping: 0.642300 ms MarkObjects: 8.001300 ms  DeleteObjects: 3.378300 ms)
+Memory consumption went from 154.3 MB to 149.5 MB.
+Total: 22.983600 ms (FindLiveObjects: 2.981800 ms CreateObjectMapping: 0.747200 ms MarkObjects: 14.368500 ms  DeleteObjects: 4.883200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 467190.707328 seconds.
-  path: Assets/_Sprites/NPCs/npc4/seumarquinho-varianção1.png
-  artifactKey: Guid(091c80d1465d6464992fe8cc97f9af38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/NPCs/npc4/seumarquinho-varianção1.png using Guid(091c80d1465d6464992fe8cc97f9af38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20c5f4e7c0c5137dc78a4de576a5e0ba') in 0.1240007 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.028329 seconds.
-  path: Assets/_Sprites/NPCs/npc4/seumarqinhos-variação2.png
-  artifactKey: Guid(306272cc87e245041916a56d4fe2fd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/NPCs/npc4/seumarqinhos-variação2.png using Guid(306272cc87e245041916a56d4fe2fd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dad1a555b7b8e3c08454e4f1e1099a07') in 0.0173401 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.883737 seconds.
-  path: Assets/_Sprites/NPCs/npc4/seumarqinhos-variação2.png
-  artifactKey: Guid(306272cc87e245041916a56d4fe2fd4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Sprites/NPCs/npc4/seumarqinhos-variação2.png using Guid(306272cc87e245041916a56d4fe2fd4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f9ef37ccae6a0d1bcd8b1dc7fcd27f2') in 0.1921079 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.105487 seconds.
-  path: Assets/_Sprites/NPCs/npc4/fulana-variação4.controller
-  artifactKey: Guid(d3911abf41b6863439f5c1853d9292cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Sprites/NPCs/npc4/fulana-variação4.controller using Guid(d3911abf41b6863439f5c1853d9292cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0eba6e4c021debaa8841e48b9ec6ce88') in 0.0099374 seconds
+  Time since last request: 472565.053346 seconds.
+  path: Assets/_Sprites/elementos-do -mercado/bancadas do mercado/bancada 5
+  artifactKey: Guid(afe914a2dce1ab04a805b5991f17a6cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/elementos-do -mercado/bancadas do mercado/bancada 5 using Guid(afe914a2dce1ab04a805b5991f17a6cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0716c05338628f9134ea777d77087169') in 0.1058527 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/_Sprites/elementos-do -mercado/bancadas do mercado/sombras da mesa
+  artifactKey: Guid(3b7f8537402f170448e84afaa0777db7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/elementos-do -mercado/bancadas do mercado/sombras da mesa using Guid(3b7f8537402f170448e84afaa0777db7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb098face370b7dd5fa09f6f673009cb') in 0.0104572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Sprites/elementos-do -mercado/bancadas do mercado/bancada 4/bancada completa 4.png
+  artifactKey: Guid(d1a76763878f6af4e9d1cb023c5fa048) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/elementos-do -mercado/bancadas do mercado/bancada 4/bancada completa 4.png using Guid(d1a76763878f6af4e9d1cb023c5fa048) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5c7860b05a328560f379e039a66cb8fb') in 0.2307229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Sprites/elementos-do -mercado/bancadas do mercado/bancada 2/bancada completa 2.png
+  artifactKey: Guid(e91eb88186399084f806026efe9463f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/elementos-do -mercado/bancadas do mercado/bancada 2/bancada completa 2.png using Guid(e91eb88186399084f806026efe9463f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '17c8f75e2907052a094661d616b56e5a') in 0.0170988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_Sprites/elementos-do -mercado/bancadas do mercado/bancada 5/bancada 5.png
+  artifactKey: Guid(b31948249465b5d40a827bf21c7b62b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/elementos-do -mercado/bancadas do mercado/bancada 5/bancada 5.png using Guid(b31948249465b5d40a827bf21c7b62b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa50a4c37ce41ae8a66f456cab5068ba') in 0.0132851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Sprites/elementos-do -mercado/bancadas do mercado/bancada 2/mesa 2.prefab
+  artifactKey: Guid(44f9916ba35dfcb45a7bbe6809573c18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/elementos-do -mercado/bancadas do mercado/bancada 2/mesa 2.prefab using Guid(44f9916ba35dfcb45a7bbe6809573c18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf942959e757de5576824889bf906b36') in 0.0583436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Sprites/elementos-do -mercado/bancadas do mercado/sombras da mesa/sombra 4.asset
+  artifactKey: Guid(c4fdb5dfc1b0ce040aab2058022c3a42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/elementos-do -mercado/bancadas do mercado/sombras da mesa/sombra 4.asset using Guid(c4fdb5dfc1b0ce040aab2058022c3a42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '25db7f30e622f88f881149f420429714') in 0.0191529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Sprites/elementos-do -mercado
+  artifactKey: Guid(e36c89f883851484794492d4f1979d82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/elementos-do -mercado using Guid(e36c89f883851484794492d4f1979d82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c1b69453293c3c2ba70cb16642e614a5') in 0.0046611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_Sprites/elementos-do -mercado/bancadas do mercado/bancada 6/bancada completa 6.asset
+  artifactKey: Guid(ccd7bea9e624fb34ea0f100f5f699145) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/elementos-do -mercado/bancadas do mercado/bancada 6/bancada completa 6.asset using Guid(ccd7bea9e624fb34ea0f100f5f699145) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e6d3ade5231a2b1c9ed3b422a64fa5b') in 0.009615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Sprites/elementos-do -mercado/bancadas do mercado/sombras da mesa/sombra 3_0.asset
+  artifactKey: Guid(6c97015a02e005c499bda29a9aaf7bc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/elementos-do -mercado/bancadas do mercado/sombras da mesa/sombra 3_0.asset using Guid(6c97015a02e005c499bda29a9aaf7bc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '46bf1cc66ba790ada719ea3826ae2597') in 0.012814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Sprites/elementos-do -mercado/bancadas do mercado/bancada 5/mesa 5.prefab
+  artifactKey: Guid(f90da6b1b3ca01a4a9e003fbf6743ce6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/elementos-do -mercado/bancadas do mercado/bancada 5/mesa 5.prefab using Guid(f90da6b1b3ca01a4a9e003fbf6743ce6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5b3a24fcfc6d45426edc330c48ddb208') in 0.0104329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Sprites/elementos-do -mercado/bancadas do mercado/bancada 6/mesa 5.prefab
+  artifactKey: Guid(3b97407f89e3c0e499195f01abd9912c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/elementos-do -mercado/bancadas do mercado/bancada 6/mesa 5.prefab using Guid(3b97407f89e3c0e499195f01abd9912c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d3631b4288c31eef282eca8968bb333') in 0.0105581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Sprites/elementos-do -mercado/bancadas do mercado/bancada 2/sombra.asset
+  artifactKey: Guid(d855d586c5d244d49aaf49302695daab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/elementos-do -mercado/bancadas do mercado/bancada 2/sombra.asset using Guid(d855d586c5d244d49aaf49302695daab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'acccc17a118f5feebf3d8f6e9824f2dd') in 0.0114105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_Sprites/elementos-do -mercado/bancadas do mercado/bancada 3
+  artifactKey: Guid(b04bd0e1d60d52748beed4bdb00c7b7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/elementos-do -mercado/bancadas do mercado/bancada 3 using Guid(b04bd0e1d60d52748beed4bdb00c7b7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a5fbb58e46eaf7adb25159cecbe7bc4') in 0.0050247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.501432 seconds.
+  path: Assets/_Sprites/ElementosDoMercado
+  artifactKey: Guid(e36c89f883851484794492d4f1979d82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado using Guid(e36c89f883851484794492d4f1979d82) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '604eb4804aaf682a4aa75c86e97bae82') in 0.0109246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 6
+  artifactKey: Guid(0026f212cb3bbfe42b0a041ce31d675d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 6 using Guid(0026f212cb3bbfe42b0a041ce31d675d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0cf53dcb75fd09dd98079faa432550e9') in 0.0033729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 5
+  artifactKey: Guid(afe914a2dce1ab04a805b5991f17a6cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 5 using Guid(afe914a2dce1ab04a805b5991f17a6cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1517d025dfbdcc9c1c61e5904cc5df00') in 0.0082766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 4/mesa 4.prefab
+  artifactKey: Guid(f4a92e3d444cd9d43bac07b38a40214c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 4/mesa 4.prefab using Guid(f4a92e3d444cd9d43bac07b38a40214c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0ed6c722c41abdb5113ed2c6ec226c7') in 0.0115698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 1/bancada 1 completa.png
+  artifactKey: Guid(9b77fa59a9d89134d868cf1bcc1b8de6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 1/bancada 1 completa.png using Guid(9b77fa59a9d89134d868cf1bcc1b8de6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0ae5933e7e9b74847982f3cdb330dd5') in 0.0191584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 2
+  artifactKey: Guid(fdbc9b108056b704ab39cc8f26844178) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 2 using Guid(fdbc9b108056b704ab39cc8f26844178) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2522e7d2ae832f67e2ad27026093542f') in 0.0041071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/bancadas do mercado/sombras da mesa/sombra 3.asset
+  artifactKey: Guid(2f50e82af9a6cf849aa9198e0437e9bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/bancadas do mercado/sombras da mesa/sombra 3.asset using Guid(2f50e82af9a6cf849aa9198e0437e9bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f89af3b802676ce7b25e51135bc6a0fd') in 0.0082348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/bancadas do mercado/sombras da mesa/sombra 3.png
+  artifactKey: Guid(2f7ef0df8b113e14fb3e7283b6dca9c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/bancadas do mercado/sombras da mesa/sombra 3.png using Guid(2f7ef0df8b113e14fb3e7283b6dca9c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '916e3a4384d11a2a3630b97ae04a48c8') in 0.0174716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 5/bancada 5.png
+  artifactKey: Guid(b31948249465b5d40a827bf21c7b62b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 5/bancada 5.png using Guid(b31948249465b5d40a827bf21c7b62b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0f589ce9018b58b97cedf7a8a74f7e24') in 0.0150792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 1/bancada 1 completa.asset
+  artifactKey: Guid(98161302d64e4244a81635cbdb3ac44b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 1/bancada 1 completa.asset using Guid(98161302d64e4244a81635cbdb3ac44b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '73d011a7a02f25adaa31cd4a0c9cbe7d') in 0.0069928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 4/bancada completa 4_0.asset
+  artifactKey: Guid(d605d3043291cdc43a93d4f27b5e6859) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 4/bancada completa 4_0.asset using Guid(d605d3043291cdc43a93d4f27b5e6859) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '247453ec1922766374ba6c8d1f4d2ae6') in 0.0084033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/bancadas do mercado/sombras da mesa/sombra 4.png
+  artifactKey: Guid(18e774351540dfc4884d82d2f1757c52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/bancadas do mercado/sombras da mesa/sombra 4.png using Guid(18e774351540dfc4884d82d2f1757c52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '149ecb4df20e909d0c424695388ec317') in 0.0191402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 6/bancada completa 6.asset
+  artifactKey: Guid(ccd7bea9e624fb34ea0f100f5f699145) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 6/bancada completa 6.asset using Guid(ccd7bea9e624fb34ea0f100f5f699145) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0543cf314dc0e6a42282e37c4c1e1822') in 0.0084282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/bancadas do mercado/sombras da mesa/sombra.png
+  artifactKey: Guid(66b88ebc30e14a14bbe6fd78ba40ad32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/bancadas do mercado/sombras da mesa/sombra.png using Guid(66b88ebc30e14a14bbe6fd78ba40ad32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd95953869c54d8d6f372d4db15d7d375') in 0.0174387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/bancadas do mercado/sombras da mesa/sombra 3_0.asset
+  artifactKey: Guid(6c97015a02e005c499bda29a9aaf7bc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/bancadas do mercado/sombras da mesa/sombra 3_0.asset using Guid(6c97015a02e005c499bda29a9aaf7bc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4954e6183a40d232fe98b519dbf36c7') in 0.0084305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 6/bancada completa 6.png
+  artifactKey: Guid(a149b8fa214a2b54b912754596b05efa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 6/bancada completa 6.png using Guid(a149b8fa214a2b54b912754596b05efa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5fef9a56ec9251db90d2777c992787c9') in 0.0166906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/bancadas do mercado/sombras da mesa/sombra 5.png
+  artifactKey: Guid(fb523b6749e3ad446911e3aa8efe63c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/bancadas do mercado/sombras da mesa/sombra 5.png using Guid(fb523b6749e3ad446911e3aa8efe63c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a52f653dde794c12043678e8dc449fc9') in 0.0152199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 6/mesa 5.prefab
+  artifactKey: Guid(3b97407f89e3c0e499195f01abd9912c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 6/mesa 5.prefab using Guid(3b97407f89e3c0e499195f01abd9912c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9ef675419caa2fc49562869b26e3cb3') in 0.0081129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 3/bancada 3 completa_0.asset
+  artifactKey: Guid(5f72f1c34323321409879df0faca9981) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 3/bancada 3 completa_0.asset using Guid(5f72f1c34323321409879df0faca9981) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9be2827f1663766b55341ecb15936240') in 0.0111355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 1
+  artifactKey: Guid(7122c443ee53c0b4e8df808e389501be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 1 using Guid(7122c443ee53c0b4e8df808e389501be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b4373c8a07599b6a0075aa5cd93d4361') in 0.0070589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 3
+  artifactKey: Guid(b04bd0e1d60d52748beed4bdb00c7b7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 3 using Guid(b04bd0e1d60d52748beed4bdb00c7b7d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f323b924305c7e149ee59eb6a91837c2') in 0.0074497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.242232 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 1/mesa 1 .prefab
+  artifactKey: Guid(f80259790810b1b43861719726468ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Sprites/ElementosDoMercado/bancadas do mercado/bancada 1/mesa 1 .prefab using Guid(f80259790810b1b43861719726468ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8090ce8c55d17b1d713b8a916043da9') in 1.2323571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 286.971058 seconds.
+  path: Assets/_Sprites/parede do mercado/Materials/Copilot_20260516_202922.mat
+  artifactKey: Guid(2538292eb9ff973498a1ae593253de9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/parede do mercado/Materials/Copilot_20260516_202922.mat using Guid(2538292eb9ff973498a1ae593253de9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5e32b9c65de454fc690364800eceb74e') in 0.064195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
