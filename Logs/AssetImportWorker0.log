@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.8f1 (1c7db571dde0) revision 1867189'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-wavul" at "2026-05-18T20:36:55.5235639Z"
 OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'pt' Physical Memory: 16108 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-wavul" at "2026-05-19T21:28:30.1991365Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-18T20:36:55Z
+Date: 2026-05-19T21:28:30Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ D:/MasterCrabHunter(cenario)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54891
+59556
 -licensingIpc
 LicenseClient-wavul
 -job-worker-count
@@ -67,14 +67,14 @@ D:/MasterCrabHunter(cenario)
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [79820]  Target information:
+Player connection [67080]  Target information:
 
-Player connection [79820]  * "[IP] 26.197.128.158 [Port] 0 [Flags] 2 [Guid] 4167195446 [EditorId] 4167195446 [Version] 1048832 [Id] WindowsEditor(7,Digi_twig) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [67080]  * "[IP] 26.197.128.158 [Port] 0 [Flags] 2 [Guid] 4183805281 [EditorId] 4183805281 [Version] 1048832 [Id] WindowsEditor(7,Digi_twig) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [79820]  * "[IP] 192.168.0.199 [Port] 0 [Flags] 2 [Guid] 4167195446 [EditorId] 4167195446 [Version] 1048832 [Id] WindowsEditor(7,Digi_twig) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [67080]  * "[IP] 192.168.0.199 [Port] 0 [Flags] 2 [Guid] 4183805281 [EditorId] 4183805281 [Version] 1048832 [Id] WindowsEditor(7,Digi_twig) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [79820] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [79820] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [67080] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [67080] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -86,7 +86,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 9.00 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 10.56 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.8f1 (1c7db571dde0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -102,44 +102,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002688 seconds.
-- Loaded All Assemblies, in  0.657 seconds
+Registered in 0.004026 seconds.
+- Loaded All Assemblies, in  0.812 seconds
 Native extension for WindowsStandalone target not found
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              bf554eec0aa54b71ab34be4880b94602
+  Correlation Id:          f4a48c6e487d24ba755a036b1df2a444
+  External correlation Id: 4856544507482767232
+  Machine Id:              KtsiXdAM/uV36trPzjml9a5Sk5I=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-wavul" (connect: 0.00s, validation: 0.00s, handshake: 3.39s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-wavul-notifications" at "2026-05-19T21:28:33.5972162Z"
+[Licensing::Module] Licensing Background thread has ended after 3.40s
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.640 seconds
-Domain Reload Profiling: 1294ms
-	BeginReloadAssembly (255ms)
+- Finished resetting the current domain, in  1.255 seconds
+Domain Reload Profiling: 2062ms
+	BeginReloadAssembly (285ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (251ms)
-		LoadAssemblies (251ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (354ms)
+		LoadAssemblies (276ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (244ms)
-			TypeCache.Refresh (242ms)
-				TypeCache.ScanAssembly (222ms)
+		AnalyzeDomain (348ms)
+			TypeCache.Refresh (345ms)
+				TypeCache.ScanAssembly (317ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (641ms)
+	FinalizeReload (1256ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (569ms)
+		SetupLoadedEditorAssemblies (1113ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (67ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (140ms)
-			ProcessInitializeOnLoadAttributes (218ms)
-			ProcessInitializeOnLoadMethodAttributes (138ms)
+			InitializePlatformSupportModulesInManaged (125ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (246ms)
+			ProcessInitializeOnLoadAttributes (493ms)
+			ProcessInitializeOnLoadMethodAttributes (235ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -147,15 +156,6 @@ Domain Reload Profiling: 1294ms
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              859da603eff94e7eb1f38ce3ddbaf398
-  Correlation Id:          f4a48c6e487d24ba755a036b1df2a444
-  External correlation Id: 362613465827408817
-  Machine Id:              KtsiXdAM/uV36trPzjml9a5Sk5I=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-wavul" (connect: 0.00s, validation: 0.00s, handshake: 3.10s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-wavul-notifications" at "2026-05-18T20:36:58.6219536Z"
-[Licensing::Module] Licensing Background thread has ended after 3.10s
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -163,8 +163,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  1.161 seconds
-Refreshing native plugins compatible for Editor in 1.11 ms, found 4 plugins.
+- Loaded All Assemblies, in  2.046 seconds
+Refreshing native plugins compatible for Editor in 2.35 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -172,356 +172,124 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.145 seconds
-Domain Reload Profiling: 2302ms
-	BeginReloadAssembly (303ms)
+- Finished resetting the current domain, in  1.572 seconds
+Domain Reload Profiling: 3613ms
+	BeginReloadAssembly (452ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (734ms)
-		LoadAssemblies (557ms)
+		CreateAndSetChildDomain (106ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (1417ms)
+		LoadAssemblies (1060ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (345ms)
-			TypeCache.Refresh (243ms)
-				TypeCache.ScanAssembly (226ms)
-			BuildScriptInfoCaches (83ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1146ms)
+		AnalyzeDomain (591ms)
+			TypeCache.Refresh (415ms)
+				TypeCache.ScanAssembly (391ms)
+			BuildScriptInfoCaches (149ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1573ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (902ms)
+		SetupLoadedEditorAssemblies (1238ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (182ms)
-			ProcessInitializeOnLoadAttributes (520ms)
-			ProcessInitializeOnLoadMethodAttributes (187ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (301ms)
+			ProcessInitializeOnLoadAttributes (712ms)
+			ProcessInitializeOnLoadMethodAttributes (206ms)
 			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
-Refreshing native plugins compatible for Editor in 2.58 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.69 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6909 unused Assets / (5.7 MB). Loaded Objects now: 7727.
-Memory consumption went from 154.3 MB to 148.6 MB.
-Total: 21.529600 ms (FindLiveObjects: 1.699400 ms CreateObjectMapping: 1.244600 ms MarkObjects: 13.238100 ms  DeleteObjects: 5.345300 ms)
+Unloading 6909 unused Assets / (5.0 MB). Loaded Objects now: 7727.
+Memory consumption went from 154.3 MB to 149.3 MB.
+Total: 12.774500 ms (FindLiveObjects: 0.707700 ms CreateObjectMapping: 0.622600 ms MarkObjects: 7.684700 ms  DeleteObjects: 3.757400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 377690.979375 seconds.
+  Time since last request: 467190.707191 seconds.
+  path: Assets/_Sprites/NPCs/npc4
+  artifactKey: Guid(c64e2bfae345c9e4584fb6460516acb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Sprites/NPCs/npc4 using Guid(c64e2bfae345c9e4584fb6460516acb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8505c5ec547f97ffdb7174028667176') in 0.0133051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.208043 seconds.
+  path: Assets/_Sprites/NPCs/npc4/seumarquinho-varianção1.png
+  artifactKey: Guid(091c80d1465d6464992fe8cc97f9af38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/NPCs/npc4/seumarquinho-varianção1.png using Guid(091c80d1465d6464992fe8cc97f9af38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '34d41e27b61b74d98548a6d99c95a2fd') in 0.2655429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.795109 seconds.
+  path: Assets/_Sprites/NPCs/npc4/seumarqinhos-variação2.png
+  artifactKey: Guid(306272cc87e245041916a56d4fe2fd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Sprites/NPCs/npc4/seumarqinhos-variação2.png using Guid(306272cc87e245041916a56d4fe2fd4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a2ef88a35541d914344adae40def340') in 0.1203014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.793521 seconds.
+  path: Assets/_Sprites/NPCs/npc4/seumarqinhos-variação2.png
+  artifactKey: Guid(306272cc87e245041916a56d4fe2fd4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/NPCs/npc4/seumarqinhos-variação2.png using Guid(306272cc87e245041916a56d4fe2fd4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e90375b0c07d15571daf3aed8b14d71d') in 0.0207269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.658031 seconds.
+  path: Assets/_Sprites/NPCs/npc4/seumarquinho-varianção1.png
+  artifactKey: Guid(091c80d1465d6464992fe8cc97f9af38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Sprites/NPCs/npc4/seumarquinho-varianção1.png using Guid(091c80d1465d6464992fe8cc97f9af38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f777ff07b789c394441ecba3cd0088ee') in 0.0224334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.896326 seconds.
+  path: Assets/_Sprites/NPCs/npc4/seumarquinho-varianção1.png
+  artifactKey: Guid(091c80d1465d6464992fe8cc97f9af38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/NPCs/npc4/seumarquinho-varianção1.png using Guid(091c80d1465d6464992fe8cc97f9af38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9663abb375ceae5abefc9c8dc85dab3c') in 0.0128702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.264435 seconds.
+  path: Assets/_Sprites/NPCs/npc4/New Animation.anim
+  artifactKey: Guid(5a8f9895a961564419da776c2aa18c10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/NPCs/npc4/New Animation.anim using Guid(5a8f9895a961564419da776c2aa18c10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '729c2e9d1013252c8ed888e455bbba20') in 0.0359456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.501134 seconds.
+  path: Assets/_Sprites/NPCs/npc4/New Animation.anim
+  artifactKey: Guid(5a8f9895a961564419da776c2aa18c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Sprites/NPCs/npc4/New Animation.anim using Guid(5a8f9895a961564419da776c2aa18c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00bfbf05c5875c676a6e8556038f4b22') in 0.0023816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.044140 seconds.
+  path: Assets/_Sprites/NPCs/npc4/fulana-variação4.controller
+  artifactKey: Guid(d3911abf41b6863439f5c1853d9292cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Sprites/NPCs/npc4/fulana-variação4.controller using Guid(d3911abf41b6863439f5c1853d9292cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ceb9756268805f339fbdae0103901e15') in 0.0030613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.152946 seconds.
   path: Assets/Scenes/SampleScene.unity
   artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '556d650a13fd66a006a16cff45767007') in 0.1741554 seconds
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8682dc99403cd9a6b80f80b262bdcc8d') in 0.0231687 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 181.496482 seconds.
-  path: Assets/_Sprites/NPCs/NPC1
-  artifactKey: Guid(574eba5ca8b3a8449a2d93beb215cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/NPCs/NPC1 using Guid(574eba5ca8b3a8449a2d93beb215cf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '090bedeb1a8ffaaeb163833fa2c2dfb7') in 0.0065118 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.798151 seconds.
-  path: Assets/_Sprites/NPCs/NPC1
-  artifactKey: Guid(574eba5ca8b3a8449a2d93beb215cf88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Sprites/NPCs/NPC1 using Guid(574eba5ca8b3a8449a2d93beb215cf88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a317e97c487f8b5abaf03b55635005af') in 0.0190495 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.424926 seconds.
-  path: Assets/_Sprites/NPCs/NPC2
-  artifactKey: Guid(43b73af087fcec541b44491a55d436ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/NPCs/NPC2 using Guid(43b73af087fcec541b44491a55d436ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1a4780d4e8a4a820436f4f4fcc6ca40') in 0.0018795 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.876596 seconds.
-  path: Assets/_Sprites/NPCs/NPC2
-  artifactKey: Guid(43b73af087fcec541b44491a55d436ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Sprites/NPCs/NPC2 using Guid(43b73af087fcec541b44491a55d436ee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cdfa3bfd70434969cc11eb2f4e9713fb') in 0.0051656 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.432223 seconds.
-  path: Assets/_Sprites/NPCs/NPC3
-  artifactKey: Guid(5d384bd822c4af843986173219da4a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/NPCs/NPC3 using Guid(5d384bd822c4af843986173219da4a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a5f26866645bed3345ce2a4742332cc4') in 0.0010036 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.884958 seconds.
-  path: Assets/_Sprites/NPCs/NPC3
-  artifactKey: Guid(5d384bd822c4af843986173219da4a66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Sprites/NPCs/NPC3 using Guid(5d384bd822c4af843986173219da4a66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a18be8d1c3d19598b2d031e3a46e42e6') in 0.0106984 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 136.046091 seconds.
-  path: Assets/_Sprites/NPCs/NPC1/jorjin-variação1.png
-  artifactKey: Guid(db435718c0f88864d8cb732e4e39a2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/NPCs/NPC1/jorjin-variação1.png using Guid(db435718c0f88864d8cb732e4e39a2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '383d4c2bf9a1f2d89a751e6de67c57fa') in 0.366696 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.527439 seconds.
-  path: Assets/_Sprites/NPCs/NPC1/jorjin-variação1.png
-  artifactKey: Guid(db435718c0f88864d8cb732e4e39a2cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Sprites/NPCs/NPC1/jorjin-variação1.png using Guid(db435718c0f88864d8cb732e4e39a2cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9f477a0e7897a2a43aac5e985368947b') in 0.2172014 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.913909 seconds.
-  path: Assets/_Sprites/NPCs/NPC1/jorjin-variação2.png
-  artifactKey: Guid(fe9f55449e2e0d74c9fbf017b283f4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/NPCs/NPC1/jorjin-variação2.png using Guid(fe9f55449e2e0d74c9fbf017b283f4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ece85ed5f6df621e0ec0221ed67c74fb') in 0.0385957 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.947540 seconds.
-  path: Assets/_Sprites/NPCs/NPC1/jorjin-variação2.png
-  artifactKey: Guid(fe9f55449e2e0d74c9fbf017b283f4b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Sprites/NPCs/NPC1/jorjin-variação2.png using Guid(fe9f55449e2e0d74c9fbf017b283f4b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '866a863278e3fde315b95abda3c46df7') in 0.0194217 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.793225 seconds.
-  path: Assets/_Sprites/NPCs/NPC1/jorjin-variação3.png
-  artifactKey: Guid(97fb76f3350f96d45a00ee3992157c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/NPCs/NPC1/jorjin-variação3.png using Guid(97fb76f3350f96d45a00ee3992157c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5351f08df85391e3c2f14a1b0d374ae1') in 0.0289277 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.936996 seconds.
-  path: Assets/_Sprites/NPCs/NPC1/jorjin-variação3.png
-  artifactKey: Guid(97fb76f3350f96d45a00ee3992157c84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Sprites/NPCs/NPC1/jorjin-variação3.png using Guid(97fb76f3350f96d45a00ee3992157c84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83d87e687007b136c750ceed632af461') in 0.0136597 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.307871 seconds.
-  path: Assets/_Sprites/NPCs/NPC1/jorjin-variação4.png
-  artifactKey: Guid(0a6d424c6becb9d4c88866281ee084c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/NPCs/NPC1/jorjin-variação4.png using Guid(0a6d424c6becb9d4c88866281ee084c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2de1ef95f9e162f4ce028b2062265bd') in 0.0690962 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.875511 seconds.
-  path: Assets/_Sprites/NPCs/NPC1/jorjin-variação4.png
-  artifactKey: Guid(0a6d424c6becb9d4c88866281ee084c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Sprites/NPCs/NPC1/jorjin-variação4.png using Guid(0a6d424c6becb9d4c88866281ee084c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5006138523be17d0bee1760bf0f71858') in 0.0166994 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.317215 seconds.
-  path: Assets/_Sprites/NPCs/NPC1/jorjin-variação5.png
-  artifactKey: Guid(710fe193f426157428ce38014d85d5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/NPCs/NPC1/jorjin-variação5.png using Guid(710fe193f426157428ce38014d85d5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a708cb9c43503d8f75df2cdd33c80af') in 0.0422828 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.868411 seconds.
-  path: Assets/_Sprites/NPCs/NPC1/jorjin-variação5.png
-  artifactKey: Guid(710fe193f426157428ce38014d85d5be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Sprites/NPCs/NPC1/jorjin-variação5.png using Guid(710fe193f426157428ce38014d85d5be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '963b3e646d7711c1ac90b41f89714070') in 0.0140114 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 137.504400 seconds.
-  path: Assets/_Sprites/NPCs/NPC2/seujose-variação1.png
-  artifactKey: Guid(8256d2e79cca159418923852e937a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/NPCs/NPC2/seujose-variação1.png using Guid(8256d2e79cca159418923852e937a649) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aad865f5c41a96225451af40033e8695') in 0.0623986 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.846534 seconds.
-  path: Assets/_Sprites/NPCs/NPC2/seujose-variação1.png
-  artifactKey: Guid(8256d2e79cca159418923852e937a649) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Sprites/NPCs/NPC2/seujose-variação1.png using Guid(8256d2e79cca159418923852e937a649) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2509f502f03a21ca681fa86150399df2') in 0.0223971 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.775205 seconds.
-  path: Assets/_Sprites/NPCs/NPC2/seujose-variação2.png
-  artifactKey: Guid(9ab47093f0755e34aaf8b2c1377bc77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/NPCs/NPC2/seujose-variação2.png using Guid(9ab47093f0755e34aaf8b2c1377bc77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd33f7227cb1d858de43c250cfa01ea97') in 0.0496547 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.873813 seconds.
-  path: Assets/_Sprites/NPCs/NPC2/seujose-variação2.png
-  artifactKey: Guid(9ab47093f0755e34aaf8b2c1377bc77d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Sprites/NPCs/NPC2/seujose-variação2.png using Guid(9ab47093f0755e34aaf8b2c1377bc77d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd9662dd09b8b907af7d813e983f47fdc') in 0.016128 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.211079 seconds.
-  path: Assets/_Sprites/NPCs/NPC2/seujose-variação3.png
-  artifactKey: Guid(eb07a969762f464439ef6c6e7f456703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/NPCs/NPC2/seujose-variação3.png using Guid(eb07a969762f464439ef6c6e7f456703) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3072b2e58939e541c4515318ce467e7') in 0.0591001 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.874535 seconds.
-  path: Assets/_Sprites/NPCs/NPC2/seujose-variação3.png
-  artifactKey: Guid(eb07a969762f464439ef6c6e7f456703) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Sprites/NPCs/NPC2/seujose-variação3.png using Guid(eb07a969762f464439ef6c6e7f456703) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2eddb07a1823bd83317cd6e6f7d3933b') in 0.0108897 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.324753 seconds.
-  path: Assets/_Sprites/NPCs/NPC2/seujose-variação4.png
-  artifactKey: Guid(abdb910152164014fbf43a4a005a14ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/NPCs/NPC2/seujose-variação4.png using Guid(abdb910152164014fbf43a4a005a14ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69e2b28a23f12fdbd7dc0cca1aa61f6e') in 0.0473566 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.876950 seconds.
-  path: Assets/_Sprites/NPCs/NPC2/seujose-variação4.png
-  artifactKey: Guid(abdb910152164014fbf43a4a005a14ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Sprites/NPCs/NPC2/seujose-variação4.png using Guid(abdb910152164014fbf43a4a005a14ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ff8478d9e6ad24b30c4ab4c003b9537b') in 0.0163213 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.822382 seconds.
-  path: Assets/_Sprites/NPCs/NPC2/seujose-variação5.png
-  artifactKey: Guid(b798a96635286dc44b2215ee5c1d675a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/NPCs/NPC2/seujose-variação5.png using Guid(b798a96635286dc44b2215ee5c1d675a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acd1fffd253c8cae178b258b6818a524') in 0.0229374 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.905038 seconds.
-  path: Assets/_Sprites/NPCs/NPC2/seujose-variação5.png
-  artifactKey: Guid(b798a96635286dc44b2215ee5c1d675a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Sprites/NPCs/NPC2/seujose-variação5.png using Guid(b798a96635286dc44b2215ee5c1d675a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'de83baef3c66c84be08b1c4dbc997835') in 0.0116509 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.850369 seconds.
-  path: Assets/_Sprites/NPCs/NPC3/fulana-variação1.png
-  artifactKey: Guid(e77aea98f556db841bf41268a5fa4332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/NPCs/NPC3/fulana-variação1.png using Guid(e77aea98f556db841bf41268a5fa4332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '993c65741e4e598f616c12a806ca1953') in 0.033027 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.860650 seconds.
-  path: Assets/_Sprites/NPCs/NPC3/fulana-variação1.png
-  artifactKey: Guid(e77aea98f556db841bf41268a5fa4332) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Sprites/NPCs/NPC3/fulana-variação1.png using Guid(e77aea98f556db841bf41268a5fa4332) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d4a7dffda9fae66128059b434e87f74') in 0.0161934 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.548741 seconds.
-  path: Assets/_Sprites/NPCs/NPC3/fulana-variação3.png
-  artifactKey: Guid(bd59135b91924c74a8ee02f1ba4d8eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/NPCs/NPC3/fulana-variação3.png using Guid(bd59135b91924c74a8ee02f1ba4d8eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b469c761da6ea0d41608e1ce3388c8c7') in 0.0549225 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.865736 seconds.
-  path: Assets/_Sprites/NPCs/NPC3/fulana-variação3.png
-  artifactKey: Guid(bd59135b91924c74a8ee02f1ba4d8eec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Sprites/NPCs/NPC3/fulana-variação3.png using Guid(bd59135b91924c74a8ee02f1ba4d8eec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '84216f6fe660e5086f21293bc758be9e') in 0.0164228 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.926702 seconds.
-  path: Assets/_Sprites/NPCs/NPC3/fulana-variação2.png
-  artifactKey: Guid(ec5aab3105a947f4c990d38a576a59c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/NPCs/NPC3/fulana-variação2.png using Guid(ec5aab3105a947f4c990d38a576a59c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74f390d0b6b8fac6341e9e2686ebb259') in 0.0287789 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.863772 seconds.
-  path: Assets/_Sprites/NPCs/NPC3/fulana-variação2.png
-  artifactKey: Guid(ec5aab3105a947f4c990d38a576a59c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Sprites/NPCs/NPC3/fulana-variação2.png using Guid(ec5aab3105a947f4c990d38a576a59c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '775eca9ec7ddf5ca4547e059ac944826') in 0.016102 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.619178 seconds.
-  path: Assets/_Sprites/NPCs/NPC3/fulana-variação4.png
-  artifactKey: Guid(7e10c259f05db2a428929ed2c9ac55d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/NPCs/NPC3/fulana-variação4.png using Guid(7e10c259f05db2a428929ed2c9ac55d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '060c6e0d8ca2f1a5e43150f9eaf8d366') in 0.0487706 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.871245 seconds.
-  path: Assets/_Sprites/NPCs/NPC3/fulana-variação4.png
-  artifactKey: Guid(7e10c259f05db2a428929ed2c9ac55d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Sprites/NPCs/NPC3/fulana-variação4.png using Guid(7e10c259f05db2a428929ed2c9ac55d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '848bfa79c2ea81068295e42ac043f86f') in 0.0123849 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 2325.337428 seconds.
-  path: Assets/_Sprites/NPCs/NPC3/fulana-variação5.png
-  artifactKey: Guid(849a36a59c9b2c94badb8c8f4073b02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/NPCs/NPC3/fulana-variação5.png using Guid(849a36a59c9b2c94badb8c8f4073b02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1697445dc9d4fb3344bfdb13a3469ed8') in 0.1321796 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.554653 seconds.
-  path: Assets/_Sprites/NPCs/NPC3/fulana-variação5.png
-  artifactKey: Guid(849a36a59c9b2c94badb8c8f4073b02e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Sprites/NPCs/NPC3/fulana-variação5.png using Guid(849a36a59c9b2c94badb8c8f4073b02e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5d59e0d876380b5b78befcf2a886a8e8') in 0.0375638 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.184345 seconds.
-  path: Assets/_Sprites/NPCs/NPC3/fulana-variação5.png
-  artifactKey: Guid(849a36a59c9b2c94badb8c8f4073b02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Sprites/NPCs/NPC3/fulana-variação5.png using Guid(849a36a59c9b2c94badb8c8f4073b02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab2e489bbedd7801d47d6072df25a294') in 0.0592899 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.865655 seconds.
-  path: Assets/_Sprites/NPCs/NPC3/fulana-variação5.png
-  artifactKey: Guid(849a36a59c9b2c94badb8c8f4073b02e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Sprites/NPCs/NPC3/fulana-variação5.png using Guid(849a36a59c9b2c94badb8c8f4073b02e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '588f898f12e32d63d6fb72b91aeddfab') in 0.0286248 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
