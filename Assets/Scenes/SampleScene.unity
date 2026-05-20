@@ -358,7 +358,7 @@ GameObject:
   - component: {fileID: 159717327}
   - component: {fileID: 159717326}
   m_Layer: 0
-  m_Name: bancada6_deperto
+  m_Name: bancadas de perto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

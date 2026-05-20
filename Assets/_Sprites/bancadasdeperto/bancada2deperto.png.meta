@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 25ad5e06ff00e2545ae1074b4a745381
+guid: 18e9edb75f5977a4abd86a5621ee1a0d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8371711143736903376
-    second: bancada4deperto_0
+      213: -7682338285339060388
+    second: bancada2deperto_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,7 +48,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 32
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bancada4deperto_0
+      name: bancada2deperto_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 039f16be115b1db80800000000000000
-      internalID: -8371711143736903376
+      spriteID: c575bf1480ad26590800000000000000
+      internalID: -7682338285339060388
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bancada4deperto_0: -8371711143736903376
+      bancada2deperto_0: -7682338285339060388
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
