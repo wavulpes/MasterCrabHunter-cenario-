@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 39
+  controlID: 40
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 40
+  controlID: 41
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 56}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 41
+  controlID: 42
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -594,7 +594,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/_Sprites/bancadas-deperto
+    - Assets/_Sprites/NPCs/NPC4
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -604,26 +604,29 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 60
   m_LastFolders:
-  - Assets/_Sprites/bancadas-deperto
+  - Assets/_Sprites/NPCs/NPC4
   m_LastFoldersGridSize: 60
   m_LastProjectPath: D:\MasterCrabHunter(cenario)
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 143}
+    scrollPos: {x: 0, y: 246.79999}
     m_SelectedIDs:
-    - m_Data: 49654
+    - m_Data: 50256
     m_LastClickedID:
-      m_Data: 49654
+      m_Data: 50256
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49316
-    - m_Data: 49318
-    - m_Data: 49320
-    - m_Data: 49322
-    - m_Data: 49618
-    - m_Data: 50642
+    - m_Data: 49350
+    - m_Data: 49352
+    - m_Data: 49354
+    - m_Data: 49358
+    - m_Data: 49360
+    - m_Data: 49656
+    - m_Data: 49658
+    - m_Data: 49686
+    - m_Data: 49748
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -657,10 +660,12 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49316
-    - m_Data: 49318
-    - m_Data: 49320
-    - m_Data: 49322
+    - m_Data: 49350
+    - m_Data: 49352
+    - m_Data: 49354
+    - m_Data: 49356
+    - m_Data: 49358
+    - m_Data: 49360
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -689,7 +694,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: []
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs:
     - m_Data: 49684
     m_RenameOverlay:
@@ -766,11 +771,8 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -7068
-      - m_Data: -3756
       - m_Data: -1314
-      - m_Data: 48836
-      - m_Data: 49010
+      - m_Data: 48960
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1293,9 +1295,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -7.7016664, y: -1.9517438, z: -0.15773506}
+    m_Target: {x: -16.517874, y: 4.190671, z: -0.0134753175}
     speed: 2
-    m_Value: {x: -7.3059196, y: -1.967417, z: -0.15013361}
+    m_Value: {x: -16.517874, y: 4.190671, z: -0.0134753175}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1345,9 +1347,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 17.65229
+    m_Target: 8.3470545
     speed: 2
-    m_Value: 16.892143
+    m_Value: 8.3470545
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1477,7 +1479,7 @@ MonoBehaviour:
       height: 437.782
     m_MinimalGUI: 1
   m_defaultScale: 0.5446759
-  m_LastWindowPixelSize: {x: 1326.5, y: 614.5}
+  m_LastWindowPixelSize: {x: 1061.2, y: 491.59998}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
