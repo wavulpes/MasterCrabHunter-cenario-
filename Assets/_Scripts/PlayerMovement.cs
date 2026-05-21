@@ -6,10 +6,16 @@ public class PlayerMovement : MonoBehaviour
     public float velocidade = 5f;
     private Rigidbody2D rb;
     private Vector2 movimento;
+    
+    // VARIÁVEL ADICIONADA: Cria a caixinha para guardar o Animator
+    private Animator meuAnimator;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        
+        // CÓDIGO ADICIONADO: Diz para a Unity buscar o Animator que está no Player
+        meuAnimator = GetComponent<Animator>();
     }
 
     void Update()
@@ -26,6 +32,18 @@ public class PlayerMovement : MonoBehaviour
             input.x = 1;
 
         movimento = input;
+
+        // LÓGICA ADICIONADA: Controla a transição das animações
+        if (movimento != Vector2.zero)
+        {
+            // Se estiver se movendo, avisa o Animator para tocar a caminhada
+            meuAnimator.SetBool("isWalking", true);
+        }
+        else
+        {
+            // Se o movimento for zero, volta para o estado parado (Idle)
+            meuAnimator.SetBool("isWalking", false);
+        }
     }
 
     void FixedUpdate()
