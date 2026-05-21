@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5527f5c3c69266b4d8d565472652f630
+guid: 61e61685e5d812e42bd7277fdabd23b7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3533553435695845992
-    second: bagre_completo_0
+      213: -1548616978462293254
+    second: cioba_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bagre_completo_0
+      name: cioba_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 4
         width: 62
-        height: 32
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89dec7e2fdb46fec0800000000000000
-      internalID: -3533553435695845992
+      spriteID: af2cd912015328ae0800000000000000
+      internalID: -1548616978462293254
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bagre_completo_0: -3533553435695845992
+      cioba_0: -1548616978462293254
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

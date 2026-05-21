@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.8f1 (1c7db571dde0) revision 1867189'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-wavul" at "2026-05-21T17:53:49.8283746Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-wavul" at "2026-05-21T18:36:16.2616818Z"
 OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'pt' Physical Memory: 16108 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-21T17:53:49Z
+Date: 2026-05-21T18:36:16Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.8f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ D:/MasterCrabHunter(cenario)
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-51777
+62888
 -licensingIpc
 LicenseClient-wavul
 -job-worker-count
@@ -67,14 +67,14 @@ D:/MasterCrabHunter(cenario)
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [9756]  Target information:
+Player connection [32940]  Target information:
 
-Player connection [9756]  * "[IP] 26.197.128.158 [Port] 0 [Flags] 2 [Guid] 2058401767 [EditorId] 2058401767 [Version] 1048832 [Id] WindowsEditor(7,Digi_twig) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [32940]  * "[IP] 26.197.128.158 [Port] 0 [Flags] 2 [Guid] 551926719 [EditorId] 551926719 [Version] 1048832 [Id] WindowsEditor(7,Digi_twig) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [9756]  * "[IP] 192.168.0.199 [Port] 0 [Flags] 2 [Guid] 2058401767 [EditorId] 2058401767 [Version] 1048832 [Id] WindowsEditor(7,Digi_twig) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [32940]  * "[IP] 192.168.0.199 [Port] 0 [Flags] 2 [Guid] 551926719 [EditorId] 551926719 [Version] 1048832 [Id] WindowsEditor(7,Digi_twig) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [9756] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [9756] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [32940] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32940] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -86,7 +86,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 13.04 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 7.99 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.8f1 (1c7db571dde0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -102,53 +102,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006328 seconds.
-- Loaded All Assemblies, in  0.935 seconds
+Registered in 0.002672 seconds.
+- Loaded All Assemblies, in  0.652 seconds
 Native extension for WindowsStandalone target not found
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              7781b948ea0d457e957244648e60876d
-  Correlation Id:          105c29228985e94f401ecd67beba4919
-  External correlation Id: 4146190023555695947
-  Machine Id:              KtsiXdAM/uV36trPzjml9a5Sk5I=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-wavul" (connect: 0.00s, validation: 0.01s, handshake: 3.39s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-wavul-notifications" at "2026-05-21T17:53:53.2192784Z"
-[Licensing::Module] Licensing Background thread has ended after 3.39s
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.823 seconds
-Domain Reload Profiling: 1751ms
-	BeginReloadAssembly (292ms)
+- Finished resetting the current domain, in  0.611 seconds
+Domain Reload Profiling: 1260ms
+	BeginReloadAssembly (229ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (86ms)
+	RebuildCommonClasses (99ms)
 	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (111ms)
-	LoadAllAssembliesAndSetupDomain (418ms)
-		LoadAssemblies (288ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (242ms)
+		LoadAssemblies (226ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (411ms)
-			TypeCache.Refresh (408ms)
-				TypeCache.ScanAssembly (383ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (235ms)
+				TypeCache.ScanAssembly (216ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (824ms)
+	FinalizeReload (612ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (748ms)
+		SetupLoadedEditorAssemblies (544ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (89ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (181ms)
-			ProcessInitializeOnLoadAttributes (326ms)
-			ProcessInitializeOnLoadMethodAttributes (145ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (223ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -157,6 +148,15 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              08819a967c134e41ad5088e5ca4422c2
+  Correlation Id:          105c29228985e94f401ecd67beba4919
+  External correlation Id: 7269338552526319339
+  Machine Id:              KtsiXdAM/uV36trPzjml9a5Sk5I=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-wavul" (connect: 0.00s, validation: 0.00s, handshake: 2.97s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-wavul-notifications" at "2026-05-21T18:36:19.2355907Z"
+[Licensing::Module] Licensing Background thread has ended after 2.97s
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
@@ -166,11 +166,11 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  1.544 seconds
+- Loaded All Assemblies, in  1.324 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 3.49 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.24 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Package Manager log level set to [2]
@@ -182,122 +182,156 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.498 seconds
-Domain Reload Profiling: 3038ms
-	BeginReloadAssembly (377ms)
+- Finished resetting the current domain, in  1.294 seconds
+Domain Reload Profiling: 2613ms
+	BeginReloadAssembly (281ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
+		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
-	RebuildCommonClasses (80ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (1003ms)
-		LoadAssemblies (716ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (911ms)
+		LoadAssemblies (585ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (515ms)
-			TypeCache.Refresh (351ms)
-				TypeCache.ScanAssembly (329ms)
-			BuildScriptInfoCaches (138ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1499ms)
+		AnalyzeDomain (480ms)
+			TypeCache.Refresh (350ms)
+				TypeCache.ScanAssembly (330ms)
+			BuildScriptInfoCaches (111ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1294ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1195ms)
+		SetupLoadedEditorAssemblies (1035ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (284ms)
-			ProcessInitializeOnLoadAttributes (658ms)
-			ProcessInitializeOnLoadMethodAttributes (231ms)
-			AfterProcessingInitializeOnLoad (12ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.11 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7304 unused Assets / (4.5 MB). Loaded Objects now: 8122.
-Memory consumption went from 156.5 MB to 152.0 MB.
-Total: 10.729700 ms (FindLiveObjects: 0.842600 ms CreateObjectMapping: 0.694200 ms MarkObjects: 6.637300 ms  DeleteObjects: 2.554200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 147107.295852 seconds.
-  path: Assets/_Scripts/SortingOrder.cs
-  artifactKey: Guid(8958998c2287cf64a9357fc3b009d467) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Scripts/SortingOrder.cs using Guid(8958998c2287cf64a9357fc3b009d467) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ebcd98d09284ca0ab9ccc8589deb813') in 0.128943 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/_Scripts/PlayerMovement.cs
-  artifactKey: Guid(2896700a5c6e6574780fa545d79363b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Scripts/PlayerMovement.cs using Guid(2896700a5c6e6574780fa545d79363b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dd7588f2cf628fbc7b26d805a2308296') in 0.0039356 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.039 seconds
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.028 seconds
-Domain Reload Profiling: 2067ms
-	BeginReloadAssembly (296ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (72ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (636ms)
-		LoadAssemblies (455ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (315ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (276ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1029ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (821ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (214ms)
-			ProcessInitializeOnLoadAttributes (487ms)
-			ProcessInitializeOnLoadMethodAttributes (102ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (185ms)
+			ProcessInitializeOnLoadAttributes (628ms)
+			ProcessInitializeOnLoadMethodAttributes (200ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Refreshing native plugins compatible for Editor in 1.69 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.08 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7302 unused Assets / (4.3 MB). Loaded Objects now: 8128.
-Memory consumption went from 158.0 MB to 153.6 MB.
-Total: 13.335600 ms (FindLiveObjects: 0.753600 ms CreateObjectMapping: 0.638500 ms MarkObjects: 9.413700 ms  DeleteObjects: 2.527800 ms)
+Unloading 7304 unused Assets / (5.2 MB). Loaded Objects now: 8122.
+Memory consumption went from 156.1 MB to 151.0 MB.
+Total: 10.180800 ms (FindLiveObjects: 0.637000 ms CreateObjectMapping: 0.625400 ms MarkObjects: 6.148400 ms  DeleteObjects: 2.768700 ms)
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 149715.524983 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/peixes_decoração.prefab
+  artifactKey: Guid(20833829615537b4d8dc6749a782d210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/peixes_decoração.prefab using Guid(20833829615537b4d8dc6749a782d210) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e031569a9d18472969494354b4131e76') in 0.7289283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/peixes_decoração.prefab
+  artifactKey: Guid(20833829615537b4d8dc6749a782d210) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/peixes_decoração.prefab using Guid(20833829615537b4d8dc6749a782d210) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '841428a8a57f8b468ce5b6a7ea2a89b5') in 0.1726758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.614594 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/decoração-peixevermelho.asset
+  artifactKey: Guid(b80eb86d4fd216549802037a4e32d8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/decoração-peixevermelho.asset using Guid(b80eb86d4fd216549802037a4e32d8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8641c51f804d1ebf96bca340e5992394') in 0.0241769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.884873 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/decoração-peixevermelho.asset
+  artifactKey: Guid(b80eb86d4fd216549802037a4e32d8ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/decoração-peixevermelho.asset using Guid(b80eb86d4fd216549802037a4e32d8ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e84a98547080b579f9582dc527b8516') in 0.0165548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.285814 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/decoração-peixeverde.asset
+  artifactKey: Guid(63a003240e311a64fafd0c28ca1aba17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/decoração-peixeverde.asset using Guid(63a003240e311a64fafd0c28ca1aba17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '581dbe1d6f28bd973ae9a79c0abce43b') in 0.0428446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.804229 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/decoração-peixeverde.asset
+  artifactKey: Guid(63a003240e311a64fafd0c28ca1aba17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/decoração-peixeverde.asset using Guid(63a003240e311a64fafd0c28ca1aba17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '86d58a40c621dd82609e498e2290aa81') in 0.0114002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.369827 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/decoração-peixeazul.asset
+  artifactKey: Guid(5cadcc8ace4f7274cb3a44efeec66d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/decoração-peixeazul.asset using Guid(5cadcc8ace4f7274cb3a44efeec66d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '799b8dcb5d43efdfcc7952b54436711e') in 0.0099176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.860564 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/decoração-peixeazul.asset
+  artifactKey: Guid(5cadcc8ace4f7274cb3a44efeec66d57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/decoração-peixeazul.asset using Guid(5cadcc8ace4f7274cb3a44efeec66d57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8270d1e5cd9ad5562bcfcfc0e140c63e') in 0.0164454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.665383 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/decoração-azulclaro.asset
+  artifactKey: Guid(249cd7f25cdc1a74591db62c91b15d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/decoração-azulclaro.asset using Guid(249cd7f25cdc1a74591db62c91b15d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90996b364cdf282f068b703820ea3cf4') in 0.0325971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.841811 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/decoração-azulclaro.asset
+  artifactKey: Guid(249cd7f25cdc1a74591db62c91b15d7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/decoração-azulclaro.asset using Guid(249cd7f25cdc1a74591db62c91b15d7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b58f8175539dcaa45695adcfed643c81') in 0.0108434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.366433 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/decoração-peixerosa.asset
+  artifactKey: Guid(567f7929a6790ed47bd79ac3e833ff5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/decoração-peixerosa.asset using Guid(567f7929a6790ed47bd79ac3e833ff5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69ad0114e59c5d7a03ef0edccfc427c6') in 0.0599801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.802110 seconds.
+  path: Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/decoração-peixerosa.asset
+  artifactKey: Guid(567f7929a6790ed47bd79ac3e833ff5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/ElementosDoMercado/decoraçãodomercado/decoração-peixerosa.asset using Guid(567f7929a6790ed47bd79ac3e833ff5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '796ec240a9729f53842774184bb7492c') in 0.0067587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2157.301510 seconds.
+  path: Assets/_Sprites/NPCs/NPC1/Materials
+  artifactKey: Guid(5d225822b74326d459797ba876a1dbec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Sprites/NPCs/NPC1/Materials using Guid(5d225822b74326d459797ba876a1dbec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fd13c4795538c5c11267e508159dfa02') in 0.0481216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 368.915007 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5bbf3aacac1536b64fdf5fda41ffa88d') in 0.1173434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
