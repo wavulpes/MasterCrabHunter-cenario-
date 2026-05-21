@@ -313,6 +313,7 @@ GameObject:
   m_Component:
   - component: {fileID: 110258637}
   - component: {fileID: 110258636}
+  - component: {fileID: 110258638}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -348,6 +349,44 @@ Transform:
   - {fileID: 1356727248}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1839735485 &110258638
+Tilemap:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110258635}
+  m_Enabled: 1
+  m_Tiles: {}
+  m_AnimatedTiles: {}
+  m_TileAssetArray: []
+  m_TileSpriteArray: []
+  m_TileMatrixArray: []
+  m_TileColorArray: []
+  m_TileObjectToInstantiateArray: []
+  m_AnimationFrameRate: 1
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Origin: {x: 0, y: 0, z: 0}
+  m_Size: {x: 0, y: 0, z: 1}
+  m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
+  m_TileOrientation: 0
+  m_TileOrientationMatrix:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
 --- !u!1 &126066659
 GameObject:
   m_ObjectHideFlags: 0
@@ -9775,6 +9814,7 @@ GameObject:
   - component: {fileID: 508987511}
   - component: {fileID: 508987510}
   - component: {fileID: 508987515}
+  - component: {fileID: 508987516}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -9829,8 +9869,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 1}
+  m_Offset: {x: 0.005325103, y: 0.018055541}
+  m_Size: {x: 0.5846433, y: 0.64610946}
   m_Direction: 0
 --- !u!50 &508987512
 Rigidbody2D:
@@ -9904,8 +9944,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1267872421
+  m_SortingLayer: 2
   m_SortingOrder: 10
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: c990150cc77ed884aae0f063f2bbf39a, type: 3}
@@ -9927,7 +9967,7 @@ Transform:
   m_GameObject: {fileID: 508987509}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.05, y: 0.76, z: 0}
+  m_LocalPosition: {x: -6.48, y: 1.21, z: 0}
   m_LocalScale: {x: 0.7280413, y: 1.0735974, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9955,6 +9995,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &508987516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508987509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8958998c2287cf64a9357fc3b009d467, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SortingOrder
+  offset: 100
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -10062,7 +10115,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 4
+  orthographic size: 4.1
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -10087,7 +10140,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.5, y: 2.32, z: -8}
+  m_LocalPosition: {x: -4.22, y: 2.32, z: -8}
   m_LocalScale: {x: 2.0279999, y: 2.2655957, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12099,8 +12152,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineCamera
   Priority:
-    Enabled: 0
-    m_Value: 0
+    Enabled: 1
+    m_Value: 10
   OutputChannel: 1
   StandbyUpdate: 2
   m_StreamingVersion: 20241001
@@ -12111,7 +12164,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 34
-    OrthographicSize: 4
+    OrthographicSize: 4.1
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -12138,7 +12191,7 @@ Transform:
   m_GameObject: {fileID: 846272625}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.26, y: 2.32, z: -8}
+  m_LocalPosition: {x: -4.22, y: 2.32, z: -8}
   m_LocalScale: {x: 1.2448251, y: 1.762475, z: 0}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -18928,14 +18981,14 @@ TilemapRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1267872421
   m_SortingLayer: 2
-  m_SortingOrder: 5
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0.5, y: 0, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 3
-  m_Mode: 0
+  m_Mode: 1
   m_DetectChunkCullingBounds: 0
 --- !u!1839735485 &1356727250
 Tilemap:
@@ -21448,7 +21501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineCamera
   Priority:
-    Enabled: 0
+    Enabled: 1
     m_Value: 0
   OutputChannel: 1
   StandbyUpdate: 2
